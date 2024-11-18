@@ -60,50 +60,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 		
-		<!--header-top start -->
-		<header id="header-top" class="header-top">
-			<ul>
-				<li>
-					<div class="header-top-left">
-						<ul>
-							<li class="select-opt">
-								<select name="language" id="language">
-									<option value="default">EN</option>
-									<option value="Bangla">BN</option>
-									<option value="Arabic">AB</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<select name="currency" id="currency">
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="bdt">BDT</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<a href="#"><span class="lnr lnr-magnifier"></span></a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="head-responsive-right pull-right">
-					<div class="header-top-right">
-						<ul>
-							<li class="header-top-contact">
-								+1 222 777 6565
-							</li>
-							<li class="header-top-contact">
-								<a href="#">sign in</a>
-							</li>
-							<li class="header-top-contact">
-								<a href="#">register</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-					
-		</header><!--/.header-top-->
+
 		<!--header-top end -->
 
 		<!-- top-area Start -->
@@ -119,22 +76,54 @@
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i class="fa fa-bars"></i>
 			                </button>
-			                <a class="navbar-brand" href="index.html">list<span>race</span></a>
+			                <!-- <a class="navbar-brand" href="index.html">list<span>race</span></a> -->
+							<a href="index.html" style="margin-top: 13px; margin-bottom: 7px;">
+								<img src="assets/images/logo-renascer.png" style="width: 234px; height: 60px;" alt="Descrição da imagem">
+							</a>
+
 
 			            </div><!--/.navbar-header-->
 			            <!-- End Header Navigation -->
 
 			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="#home">home</a></li>
-			                    <li class="scroll"><a href="#works">how it works</a></li>
-			                    <li class="scroll"><a href="#explore">explore</a></li>
-			                    <li class="scroll"><a href="#reviews">review</a></li>
-			                    <li class="scroll"><a href="#blog">blog</a></li>
-			                    <li class="scroll"><a href="#contact">contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
+						<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+							<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+								<li class="scroll dropdown">
+									<a href="#explore" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Sobre <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#photos">História</a></li>
+										<li><a href="#videos">Missão / Valores</a></li>										
+										<li><a href="#videos">Dirigentes</a></li>
+									</ul>
+								</li>
+
+								<li class="scroll dropdown">
+									<a href="#explore" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Como participar <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#photos">Agenda</a></li>
+										<li><a href="#videos">Trabalhos</a></li>										
+										<li><a href="#videos">Orientações</a></li>
+										<li><a href="#videos">Dúvidas Frequentes</a></li>
+									</ul>
+								</li>
+
+								<li class="scroll dropdown">
+									<a href="#explore" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										Mídia <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#photos">Fotos</a></li>
+										<li><a href="#videos">Vídeos</a></li>
+										<li><a href="#videos">Regimento Interno</a></li>
+									</ul>
+								</li>
+								<li class="scroll"><a href="#reviews">Contato</a></li>
+							</ul><!--/.nav -->
+						</div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
 			    </nav><!--/nav-->
 			    <!-- End Navigation -->
@@ -148,38 +137,9 @@
 		<section id="home" class="welcome-hero">
 			<div class="container">
 				<div class="welcome-hero-txt">
-					<h2>best place to find and explore <br> that all you need </h2>
-					<p>
-						Find Best Place, Restaurant, Hotel, Real State and many more think in just One click 
-					</p>
+					<h2>Corpo + Mente + Espírito</h2>
 				</div>
-				<div class="welcome-hero-serch-box">
-					<div class="welcome-hero-form">
-						<div class="single-welcome-hero-form">
-							<h3>what?</h3>
-							<form action="index.html">
-								<input type="text" placeholder="Ex: palce, resturent, food, automobile" />
-							</form>
-							<div class="welcome-hero-form-icon">
-								<i class="flaticon-list-with-dots"></i>
-							</div>
-						</div>
-						<div class="single-welcome-hero-form">
-							<h3>location</h3>
-							<form action="index.html">
-								<input type="text" placeholder="Ex: london, newyork, rome" />
-							</form>
-							<div class="welcome-hero-form-icon">
-								<i class="flaticon-gps-fixed-indicator"></i>
-							</div>
-						</div>
-					</div>
-					<div class="welcome-hero-serch">
-						<button class="welcome-hero-btn" onclick="window.location.href='#'">
-							 search  <i data-feather="search"></i> 
-						</button>
-					</div>
-				</div>
+
 			</div>
 
 		</section><!--/.welcome-hero-->
@@ -191,51 +151,43 @@
 				<div class="list-topics-content">
 					<ul>
 						<li>
-							<div class="single-list-topics-content">
+							<div class="single-list-topics-content" style="background-color: #ff7675; padding: 15px; border-radius: 8px;">
 								<div class="single-list-topics-icon">
-									<i class="flaticon-restaurant"></i>
+									<i class="fa fa-heart-o" aria-hidden="true" style="font-size: 40px; color: #fff;"></i>
 								</div>
-								<h2><a href="#">resturent</a></h2>
-								<p>150 listings</p>
+								<h2><a href="#" style="color: #fff;">Amor</a></h2>
+								<p style="color: #e2e5e7;">Para servir</p>
 							</div>
 						</li>
 						<li>
-							<div class="single-list-topics-content">
+							<div class="single-list-topics-content" style="background-color: #74b9ff; padding: 15px; border-radius: 8px;">
 								<div class="single-list-topics-icon">
-									<i class="flaticon-travel"></i>
+									<i class="fa fa-medkit" aria-hidden="true" style="font-size: 40px; color: #fff;"></i>
 								</div>
-								<h2><a href="#">destination</a></h2>
-								<p>214 listings</p>
+								<h2><a href="#" style="color: #fff;">Cura</a></h2>
+								<p style="color: #e2e5e7;">Para sorrir</p>
 							</div>
 						</li>
 						<li>
-							<div class="single-list-topics-content">
+							<div class="single-list-topics-content" style="background-color: #9b59b6; padding: 15px; border-radius: 8px;">
 								<div class="single-list-topics-icon">
-									<i class="flaticon-building"></i>
+									<i class="fa fa-lightbulb-o" aria-hidden="true" style="font-size: 40px; color: #fff;"></i>
 								</div>
-								<h2><a href="#">hotels</a></h2>
-								<p>185 listings</p>
+								<h2><a href="#" style="color: #fff;">Conhecimento</a></h2>
+								<p style="color: #e2e5e7;">Para andar</p>
 							</div>
 						</li>
 						<li>
-							<div class="single-list-topics-content">
+							<div class="single-list-topics-content" style="background-color: #d1a800; padding: 15px; border-radius: 8px;">
 								<div class="single-list-topics-icon">
-									<i class="flaticon-pills"></i>
+									<i class="fa fa-line-chart" aria-hidden="true" style="font-size: 40px; color: #fff;"></i>
 								</div>
-								<h2><a href="#">healthcaree</a></h2>
-								<p>200 listings</p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="flaticon-transport"></i>
-								</div>
-								<h2><a href="#">automotion</a></h2>
-								<p>120 listings</p>
+								<h2><a href="#" style="color: #fff;">Evolução</a></h2>
+								<p style="color: #e2e5e7;">Para viver</p>
 							</div>
 						</li>
 					</ul>
+					
 				</div>
 			</div><!--/.container-->
 
@@ -243,58 +195,115 @@
 		<!--list-topics end-->
 
 		<!--works start -->
-		<section id="works" class="works">
+		<section id="historia" class="works">
 			<div class="container">
 				<div class="section-header">
-					<h2>how it works</h2>
-					<p>Learn More about how our website works</p>
+					<h2>História</h2>
+					<p>Conheça sobre a história do Renascer...</p>
 				</div><!--/.section-header-->
-				<div class="works-content">
+
+				<p style="margin-top: 20px;">Em 21/03/2016, Karan Alves Pereira (fundador do Espaço Renascer) passou por um de seus momentos mais dificeis de vida. 
+					Desacreditado e sem fé em Deus e na humanidade, se viu doente. Nada lhe fazia mais sentido, a hipocrisia enxergada nas igrejas somada a hábitos irregulares 
+				de um jovem de 23 anos fez com que ele adoeçe-se.</p>
+				<p style="margin-top: 10px;">Nesse momento de dor, ele se reencontrou com Deus através da Doutrina Espírita que lhe trouxe consolo e instrução diante da vida.
+					Se interou das atividades doutrinárias, mergulhou nas literaturas e começou a assumir novas responsabilidades dentro desse cenário.
+				</p>
+				<p style="margin-top: 10px;">No ano de 2021, já vivendo em harmonia e equilíbrio, sentiu um desejo profundo de ajudar seu amigo Eduardo Pereira (massoterapeuta) a levar a cura para as pessoas. Possivelmente
+					um caminho para retribuir toda a ajuda recebida nesses momentos dificéis. Iniciou-se ali, uma parceria para oferecer um espaço que promove-se a cura integral (Corpo; Mente; Espírito) para o ser humano.
+				</p>
+				<p style="margin-top: 10px;">O Espaço Renascer foi inaugurado em 16/10/2021 em São José/SC - Brasil com a presença de amigos e família. A estrutura física contava com 4 salas, sendo elas:
+					<ul>
+						<li>Aruanda (Amor): Sala de uso coletivo destinada a práticas de Yoga, cursos e palestras.</li>
+						<li>Arcturus (Cura): Destinada para atendimentos individuais (Reiki, Thetahealing, Barras de Access, Leitura de Aura...)</li>
+						<li>Oriente (Conhecimento): Utilizada para atendimento individuais (Massoterapia, Estética, Psicólogo...)</li>
+						<li>Capela (Evolução): Uso para atendimento individuais (Nutrição, Constelação Familiar, Respiração do Renascimento...)</li>
+					</ul>
+				</p>
+				<p style="margin-top: 10px;">A proposta do espaço foi oferecer um ambiente aconchegante para os paciente e parceiros com o objetivo de crescimento mútuo. O parceiro pagaria um percentual do seu
+					serviço para o espaço e receberia uma infraestrutura adequada, bem como suporte na realização de suas atividades (marketing, vendas, networking, gerenciamento...)</p>
+
+				<p style="margin-top: 10px;">No período de funcionamento (2021 à 2022) o Espaço Renascer trabalhou com cerca de 30 parceiros, +700 clientes, 15 eventos e + de 2000 atendimentos.</p>
+
+				<p style="margin-top: 10px;">O espaço foi fechado no final de 2022 em decorrência de mudanças societárias e da dificuldade enfrentadas pelo Gestor (Karan) em conciliar o gerenciamento da clínica
+					com outras atividades profissionais.
+				</p>
+
+				<p style="margin-top: 10px;">Toda proposta do Renascer teve um cunho muito espiritual a partir do desejo iminente de ajudar a humanidade. Ter um direcionamento comercial com base nesse contexto
+					era um contrasenso. A clínica Renascer fechou, mas o desejo de ajudar permanesceu.
+				</p>
+
+				<p style="margin-top: 10px;">Com esse desejo ativo, Karan conheceu Rosana Cardoso em um trabalho voluntário em um centro espírita e os dois decidiram fazer uma sessão de Ayahuasca na casa da Rosana,
+					conhecida como: Casa do Rezo.
+				</p>
+
+				<p style="margin-top: 10px;">O projeto foi renascendo em comunhão com o Cristo e outras atividades foram incorporadas:</p>
+
+				<div>
 					<div class="row">
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6 dv-atividades">
 							<div class="single-how-works">
 								<div class="single-how-works-icon">
 									<i class="flaticon-lightbulb-idea"></i>
 								</div>
-								<h2><a href="#">choose <span> what to</span> do</a></h2>
+								<h2><a href="#">Estudo do Evangelho Segundo o Espiritismo</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Estudo online que ocorre toda segunda-feira às 19:00 
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
+									Saiba mais
 								</button>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6 dv-atividades">
 							<div class="single-how-works">
 								<div class="single-how-works-icon">
 									<i class="flaticon-networking"></i>
 								</div>
-								<h2><a href="#">find <span> what you want</span></a></h2>
+								<h2><a href="#">Estudo da Mediunidade</span></a></h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Estudo online que ocorre toda segunda-feira às 20:15
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
+									Saiba mais
 								</button>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-3 col-sm-6 dv-atividades">
 							<div class="single-how-works">
 								<div class="single-how-works-icon">
 									<i class="flaticon-location-on-road"></i>
 								</div>
-								<h2><a href="#">explore <span> amazing</span> place</a></h2>
+								<h2><a href="#">Trabalho de Cura</a></h2>
 								<p>
-									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
+									Trabalho presencial que ocorre toda sexta-feira às 20:00 
 								</p>
 								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
+									Saiba mais
+								</button>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 dv-atividades">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-location-on-road"></i>
+								</div>
+								<h2><a href="#">Sessão de Ayahuasca</a></h2>
+								<p>
+									Trabalho presencial que ocorre 1x por mês
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									Saiba mais
 								</button>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<p style="margin-top: 10px;">A essência continua sendo a a mesma (servir a humanidade). O que mudou foi que agora o Espaço Renascer atua de maneira filantrópica e voluntária.</p>
+
+
+
+
 			</div><!--/.container-->
 		
 		</section><!--/.works-->
@@ -304,7 +313,7 @@
 		<section id="explore" class="explore">
 			<div class="container">
 				<div class="section-header">
-					<h2>explore</h2>
+					<h2>Missão / Valores</h2>
 					<p>Explore New place, food, culture around the world and many more</p>
 				</div><!--/.section-header-->
 				<div class="explore-content">
@@ -715,8 +724,7 @@
 		<!--reviews start -->
 		<section id="reviews" class="reviews">
 			<div class="section-header">
-				<h2>clients reviews</h2>
-				<p>What our client say about us</p>
+				<h2>Avaliações</h2>
 			</div><!--/.section-header-->
 			<div class="reviews-content">
 				<div class="testimonial-carousel">
@@ -1057,25 +1065,7 @@
 		<!--footer start-->
 		<footer id="footer"  class="footer">
 			<div class="container">
-				<div class="footer-menu">
-		           	<div class="row">
-			           	<div class="col-sm-3">
-			           		 <div class="navbar-header">
-				                <a class="navbar-brand" href="index.html">list<span>race</span></a>
-				            </div><!--/.navbar-header-->
-			           	</div>
-			           	<div class="col-sm-9">
-			           		<ul class="footer-menu-item">
-			                    <li class="scroll"><a href="#works">how it works</a></li>
-			                    <li class="scroll"><a href="#explore">explore</a></li>
-			                    <li class="scroll"><a href="#reviews">review</a></li>
-			                    <li class="scroll"><a href="#blog">blog</a></li>
-			                    <li class="scroll"><a href="#contact">contact</a></li>
-			                    <li class=" scroll"><a href="#contact">my account</a></li>
-			                </ul><!--/.nav -->
-			           	</div>
-		           </div>
-				</div>
+
 				<div class="hm-footer-copyright">
 					<div class="row">
 						<div class="col-sm-5">
@@ -1085,11 +1075,10 @@
 						</div>
 						<div class="col-sm-7">
 							<div class="footer-social">
-								<span><i class="fa fa-phone"> +1  (222) 777 8888</i></span>
+								<span><i class="fa fa-phone"> +55 (48) 9 9149-0912</i></span>
+								<a href="#"><i class="fa fa-instagram"></i></a>	
 								<a href="#"><i class="fa fa-facebook"></i></a>	
 								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-google-plus"></i></a>
 							</div>
 						</div>
 					</div>
