@@ -345,6 +345,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     position: relative;
     top: -98px;
     z-index: 1;
+    text-align: center;
 }
 .list-topics-content ul li { display: inline-block;}
 
@@ -383,7 +384,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         6. Works 
 --------------------------------------*/
 .works{padding: 0 0 90px;}
-.atividades-content {margin-top: 25px;}
+.atividades-content {margin-top: 20px;}
 
 .single-how-works{
     text-align: center;
@@ -438,7 +439,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         7. Explore
 --------------------------------------*/
 .explore{
-    padding:117px 0 95px;
+    padding:60px 0 70px;
     background: #f8fafb;
 }
 .explore-content{margin-top: 78px;}

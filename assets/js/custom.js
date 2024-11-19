@@ -42,7 +42,8 @@ $(document).ready(function(){
 	        autoplay:true,
 	        slidesToShow: 5,
 	        slidesToScroll: 3,
-	        autoplaySpeed:1500,
+	        autoplaySpeed:7000,
+			speed: 2000,
 	        // the magic
 			responsive: [
 				{
