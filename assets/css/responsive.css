@@ -52,7 +52,6 @@
 	.single-welcome-hero-form {flex-direction: column;width: 100%;background: #fff; margin: 15px 0;padding: 20px 0;}
 	.welcome-hero-form {width: 100%;flex-direction: column;height: 250px;background: transparent;}
 
-	.list-topics-content {top: 0;margin: 60px auto;}
 
 	.single-how-works,.single-blog-item {max-width: 350px;margin: 30px auto;}
 
@@ -114,4 +113,150 @@
 @media screen and  (max-width: 320px){
 	
 }/*max-width:320px*/
+
+
+
+/* Para telas grandes (acima de 1200px) */
+@media (min-width: 1200px) {
+    .single-how-works {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+/* Para tablets (entre 768px e 1200px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .single-how-works {
+        width: 220px;
+        height: 340px;
+    }
+}
+
+/* Para tablets (entre 768px e 990px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .single-how-works {
+        width: 180px;
+        height: 340px;
+    }
+}
+
+/* Para dispositivos pequenos (abaixo de 768px) */
+@media (max-width: 767px) {
+    .single-how-works {
+        width: 90%; /* Ocupa quase toda a largura */
+        height: 320px;
+        padding: 15px; /* Reduz o padding para telas menores */
+    }
+}
+
+/* Para dispositivos muito pequenos (abaixo de 480px) */
+@media (max-width: 479px) {
+    .single-how-works {
+        width: 100%; /* Largura total */
+        height: 300px;
+        padding: 10px; /* Padding reduzido */
+    }
+}
+
+@media (max-width: 992px) {
+    .list-topics-content {
+        top: -90px;
+    }
+
+    .single-list-topics-content {
+        max-width: 150px;
+        height: 130px;
+    }
+
+    .single-list-topics-content i {
+        font-size: 30px;
+    }
+
+    .single-list-topics-content h2 a {
+        font-size: 15px;
+    }
+
+    .single-list-topics-content p {
+        font-size: 12px;
+    }
+
+	.logo-site {
+		width: 200px;
+	}
+}
+
+@media (max-width: 650px) {
+    .list-topics-content {
+        top: -70px;
+    }
+    .single-list-topics-content {
+        max-width: 130px;
+        height: 100px;
+    }
+
+    .single-list-topics-content i {
+        font-size: 25px;
+    }
+
+    .single-list-topics-content h2 a {
+        font-size: 13px;
+    }
+
+    .single-list-topics-content p {
+        font-size: 10px;
+    }
+
+	.logo-site {
+		width: 180px;
+	}
+}
+
+@media (max-width: 500px) {
+    .list-topics-content {
+        top: -80px;
+    }
+
+    .single-list-topics-content {
+        max-width: 90px;
+        height: 100px;
+    }
+
+    .single-list-topics-content i {
+        font-size: 23px;
+    }
+
+    .single-list-topics-content h2 a {
+        font-size: 10px;
+    }
+
+    .single-list-topics-content p {
+        font-size: 8px;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+    .list-topics-content {
+        top: -90px;
+    }
+
+    .single-list-topics-content {
+        max-width: 150px;
+        height: 130px;
+    }
+
+    .single-list-topics-content i {
+        font-size: 30px;
+    }
+
+    .single-list-topics-content h2 a {
+        font-size: 15px;
+    }
+
+    .single-list-topics-content p {
+        font-size: 12px;
+    }
+}
 
