@@ -359,7 +359,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-bottom: 10px;
 }
 
-.single-list-topics-content h2 a {
+.single-list-topics-content h2 {
+    color: white;
     font-size: 16px;
 }
 
