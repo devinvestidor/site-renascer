@@ -26,15 +26,13 @@ a,a:hover,a:active,a:focus {
 	color: #343a3f;
 	font-size:16px;
 	padding:0;
-    font-weight: 500;
-    text-transform: capitalize;
+    font-weight: 500;    
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#343a3f;
     font-size: 18px;
-    font-weight: 500;
-    text-transform: capitalize;
+    font-weight: 500;    
 }
 p {
 	margin: 0;
@@ -151,10 +149,9 @@ nav.navbar.bootsnav {
     color: #1b1e20;
     font-size: 20px;
     font-weight: 700;
-    padding: 34px 0px;
-    text-transform:capitalize;
+    padding: 34px 0px;    
 }
-.navbar-header a.navbar-brand span{display: inline-block;color:#ff545a;text-transform:capitalize;}
+.navbar-header a.navbar-brand span{display: inline-block;color:#ff545a;}
 
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 /*.navbar-brand*/
@@ -273,8 +270,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .single-welcome-hero-form input[type="text"]{
     font-size: 14px;
-    color: #859098;
-    text-transform: capitalize;
+    color: #859098;    
     font-weight: 500;
 }
 .welcome-hero-form-icon {
@@ -291,8 +287,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     color:  #fff;
     width:  170px;
     height:  70px;
-    background:  #ff545a;
-    text-transform:  capitalize;
+    background:  #ff545a;    
     margin-left:  30px;
     border-radius: 3px;
     -webkit-transition: 0.3s linear; 
@@ -508,8 +503,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     line-height: 21px;
     background: #ff545a;
     border-radius: 3px;
-    color: #fcfcfc;
-    text-transform: capitalize;
+    color: #fcfcfc;    
     text-align: center;
     font-size: 12px;
 }
@@ -543,7 +537,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .explore-rating-price,.explore-rating-price a {
     font-size: 12px !important;
     color: #777f85;
-    text-transform: capitalize;
     font-weight: 400;
     margin: 10px 0 10px;
 }
@@ -583,8 +576,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-top: 20px;
 }
 .close-btn {
-    color: #f63138;
-    text-transform: capitalize;
+    color: #f63138;    
 }
 .close-btn.open-btn {color: #00c437;}
 .explore-map-icon{text-align: right;}
@@ -628,8 +620,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /* testimonial-info */
 .testimonial-info {
     display: flex;
-    align-items: center;
-    text-transform:capitalize;
+    align-items: center;    
 }
 .testimonial-img {
     position: relative;
@@ -733,8 +724,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .single-ststistics-box h3{
     color:#fff;
-    font-size:24px;
-    text-transform:capitalize;
+    font-size:24px;    
     font-weight: 500;
 }
 
@@ -839,8 +829,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     line-height: 60px;
     text-decoration: none;
     border-top-right-radius:3px;
-    border-bottom-right-radius:3px;
-    text-transform:capitalize;
+    border-bottom-right-radius:3px;    
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -891,8 +880,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .hm-footer-copyright p,.hm-footer-copyright p a {
     color: #a5adb3;
     font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
+    font-weight: 400;    
 }
 .footer-social {text-align: right;}
 .footer-social .fa-phone:before {
