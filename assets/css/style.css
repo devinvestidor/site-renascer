@@ -24,9 +24,11 @@ a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
 	color: #343a3f;
-	font-size:16px;
 	padding:0;
     font-weight: 500;    
+}
+.sublinhado {
+    text-decoration: underline;
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
