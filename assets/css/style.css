@@ -404,6 +404,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     justify-content: space-between;
     align-items: center;
     background-color: #fff; /* Fundo branco para maior contraste */
+    margin-bottom: 20px;
 }
 
 .single-how-works-icon {
