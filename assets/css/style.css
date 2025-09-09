@@ -983,3 +983,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     width: 234px;
     height: auto;
 }
+
+
+.explore-content .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.explore-content .row > [class*='col-'] {
+  display: flex;
+}
