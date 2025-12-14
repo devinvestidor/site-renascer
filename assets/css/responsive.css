@@ -1,11 +1,14 @@
-@media screen and (max-width:1680px){
+.sobre-espaco {margin-top: 30px;}
 
+@media screen and (max-width:1680px){
+    .sobre-espaco {margin-top: 30px;}
 }/*max-width:1680px*/
 @media screen and (max-width:1440px){
 	.single-welcome-hero {height: 807px;}
 }/*max-width:1440px*/
 
 @media screen and (max-width:1199px){
+    .sobre-espaco {margin-top: 20px;}
 	nav.navbar.bootsnav ul.nav > li > a { padding: 35px 10px;}
 	
 	.welcome-hero-txt h2{font-size: 40px;}
@@ -19,14 +22,17 @@
 }/*max-width:1199px*/
 
 @media screen and (max-width:1024px){
+    .sobre-espaco {margin-top: 20px;}
 	.single-welcome-hero {height:768px;}
 }/*max-width:1024px*/
 
 @media screen and (max-width:1008px){
+    .sobre-espaco {margin-top: 20px;}
 
 }/*max-width:1008px*/
 
 @media screen and (max-width:992px){
+    .sobre-espaco {margin-top: 20px;}
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
 	nav.navbar.bootsnav .navbar-brand {padding: 25px;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
@@ -34,6 +40,7 @@
 }/*max-width:992px*/
 
 @media screen and (max-width:991px){
+    .sobre-espaco {margin-top: 0px;}
 	.welcome-hero-serch-box {display: flex; flex-direction: column;align-items: center;}
 	.welcome-hero-btn {margin-top: 30px;}
 	.welcome-hero-form {width: 100%;}
@@ -42,6 +49,7 @@
 }/*max-width:991px*/
 
 @media screen and (max-width:768px){
+    .sobre-espaco {margin: 0px 20px 0px 20px;}
     
 }/*max-width:768px*/
 
